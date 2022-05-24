@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  width: 100%;
+  font-family: 'Koulen';
+  position: fixed;
+}
+
+#header img {
+  width: 50px;
+  height: 60px;
+}
+
+#header h3 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+#header nav {
+  width: 25%;
+}
+
+#nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#nav-bar ul li {
+  list-style: none;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#nav-bar ul li a:hover {
+  color: gray;
+  border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header h3 {
+    text-align: center;
+  }
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#home {
+  background-image: url(under-armour-14.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+}
+
+iframe {
+  width: 100%;
+  height: 720px;
+  background-color: black;
+}
+
+#products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  background-color: white;
+  font-family: 'Koulen';
+}
+
+.shoe {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#products button {
+  padding: 5px;
+  color: black;
+  border-radius: 10px;
+}
+
+#products button:hover {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #products {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d5cdcd;
+  height: 300px;
+  font-family: 'Koulen';
+}
+
+#contacts ul li {
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+}
+
+.sign {
+  position: relative;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-style: italic;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sign button {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: gray;
+}
+/*# sourceMappingURL=style.css.map */
